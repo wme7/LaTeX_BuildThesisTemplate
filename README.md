@@ -8,12 +8,13 @@ To build a basic thesis template to become familiar with:
 - S1 : Learn to build a fancy header and footer,
 - S1 : Learn to build the bibliography using biblatex.
 
-## Abstract Generator:
-
+## Writting an abstract:
+1. The old-school [AbstractMaker.pdf](./abstract_maker/AbstractMaker.pdf),
+2. The online [Abstract Generator](https://www.classgist.com/abstract-generator.aspx).
 
 ## Starting hint:
 ```latex
-% Set Beamer class
+% Set Report class
 \documentclass{report} % double-sided pages
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
