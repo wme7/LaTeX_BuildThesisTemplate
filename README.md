@@ -8,7 +8,7 @@ To build a basic thesis template to become familiar with:
 - S1 : Learn to build a fancy header and footer,
 - S1 : Learn to build the bibliography using biblatex.
 
-## Writting an abstract:
+## Writing an abstract:
 1. The old-school [AbstractMaker.pdf](./abstract_maker/AbstractMaker.pdf),
 2. The online [Abstract Generator](https://www.classgist.com/abstract-generator.aspx).
 
@@ -38,11 +38,11 @@ To build a basic thesis template to become familiar with:
 
     % The abstract
     \chapter*{Abstract}
-    A thesis about using something I have been doing for the last year.
+    Briefly: what have you done? and why it matters?
 
     % A dedication
     \chapter*{Dedication}
-    To all researchers in applied math and physics.
+    To my mom, dad, dog, ...
 
     % Statement
     \chapter*{Declaration}
@@ -61,15 +61,15 @@ To build a basic thesis template to become familiar with:
 
     % Chapter 2: Methodology part I
     \chapter{Title of Chapter 2}
-    The use this method for ...
+    Some method we used for ...
 
     % Chapter 3: Methodology part II
     \chapter{Title of Chapter 3}
-    We use another method also for ...
+    Another method we also used for ...
 
     % Chapter 4: Experiments and results
     \chapter{Experiments and Results}
-    The propose to do ...
+    To verify our idea, we did ...
 
     % Chapter 5: Conclusions and Future work
     \chapter{Conclusion}
@@ -78,7 +78,7 @@ To build a basic thesis template to become familiar with:
     % Appendix
     \appendix
     \chapter{Title of Appendix Chapter}
-    This is important ...
+    Here are some important details ...
 
 % End thesis document
 \end{document}
