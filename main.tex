@@ -1,0 +1,88 @@
+\documentclass[12pt,twoside]{report} % double-sided pages
+%\documentclass[12pt]{report} % single-sided pages 
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{lipsum} % Using dummy text
+\graphicspath{ {figures/} } % Add path the figures
+%\usepackage[style=authoryear,sorting=ynt,style=numeric]{biblatex} %  sorts entries by year, name, title
+\usepackage[style=authoryear,sorting=none,style=numeric]{biblatex} %  sorts as they are cited
+\addbibresource{references.bib}
+
+% Setup fancy header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Author Name}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Title page info
+\title{
+    {My Cool Research Project Name}\\
+    {\large Institution Name}\\
+    \vspace{1cm}
+    {\includegraphics{TeXlion}}
+}
+\author{Manuel A. D\'iaz}
+\date{\today}
+
+% Begin thesis document
+\begin{document}
+
+    % Title page
+    \maketitle
+
+    % The abstract
+    \chapter*{Abstract}
+    A thesis about using something I have been doing for the last year.
+
+    % A dedication
+    \chapter*{Dedication}
+    To all researcher in applied math and physics.
+
+    % Statement
+    \chapter*{Declaration}
+    I declare this is an original work and proper citations and reference are presented to all external arguments.
+
+    % Acknowledgments
+    \chapter*{Acknowledgements}
+    I wish to thank ... 
+
+    % The Table of contents
+    \tableofcontents
+
+    % Introduction
+    \chapter{Introduction}
+    \input{chapters/introduction}
+
+    % Chapter 2: Methodology part I
+    \chapter{Title of Chapter 2}
+    \input{chapters/chapter02}
+
+    % Chapter 3: Methodology part II
+    \chapter{Title of Chapter 3}
+    \input{chapters/chapter03}
+
+    % Chapter 4: Experiments and results
+    \chapter{Experiments and Results}
+    \input{chapters/chapter04}
+
+    % Chapter 5: Conclusions and Future work
+    \chapter{Conclusion}
+    \input{chapters/conclusions}
+
+    % References
+    \printbibliography
+
+    % Appendix
+    \appendix
+    \chapter{Title of Appendix Chapter}
+    \input{chapters/appendix}
+
+% End thesis document
+\end{document}
