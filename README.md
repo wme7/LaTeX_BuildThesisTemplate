@@ -89,4 +89,5 @@ To build a basic thesis template to become familiar with:
 
 ## References
 1. The Thesis tutorial by [overleaf.com](https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_1)%3A_Basic_Structure),
-2. The Markdown [cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+2. Dr. Trefor Bazett, youtube video: [My favorite LaTeX packages for writing beautiful math documents](https://youtu.be/331YxgOJUGw),
+3. The Markdown [cheat sheet](https://www.markdownguide.org/cheat-sheet/).
